@@ -1,12 +1,11 @@
 {
   "alunos": [
     {
-      "id": "1",
-      "nome": "Joana",
-      "apelido": "Silva",
-      "idCurso": 1,
+      "nome": "Joanaaaa",
+      "apelido": "Silvaaaa",
+      "idCurso": 3,
       "anoCurricular": 2,
-      "idade": 21
+      "id": "1"
     },
     {
       "id": "2",
@@ -15,6 +14,13 @@
       "idCurso": 2,
       "anoCurricular": 1,
       "idade": 19
+    },
+    {
+      "id": "926",
+      "nome": "asddd",
+      "apelido": "asdddd",
+      "idCurso": 1,
+      "anoCurricular": 1
     }
   ],
   "cursos": [
