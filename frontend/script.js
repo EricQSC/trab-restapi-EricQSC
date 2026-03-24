@@ -1,5 +1,5 @@
 // JS para operações CRUD com Fetch API
-const API_URL = "http://localhost:5000/api/alunos";
+const API_URL = "https://trab-restapi-ericqsc.onrender.com";
 
 // Função para carregar e listar alunos
 async function carregarAlunos() {
