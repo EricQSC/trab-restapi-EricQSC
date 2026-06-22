@@ -102,7 +102,7 @@ router.post('/', alunoController.createAluno);
  * $ref: '#/components/schemas/Aluno'
  * responses:
  * 200:
- * description: Aluno atualizado com sucesso
+ * description: Aluno updated com sucesso
  * 404:
  * description: Aluno não encontrado
  */
