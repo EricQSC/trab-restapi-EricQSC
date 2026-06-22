@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsDoc = require('swagger-jsdoc');
+const path = require('path');
 require('dotenv').config();
 
 const app = express();
@@ -33,7 +34,7 @@ const swaggerOptions = {
     ]
   },
   // Onde o Swagger vai procurar os comentários das rotas
-  apis: ['./routes/*.js'], 
+  apis: [path.join(__dirname, './routes/*.js')], 
 };
 
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
